@@ -1,7 +1,7 @@
 import './App.css';
 
 function App() {
-  return <div className='App'>react capstone</div>;
+  return <div className="App">react capstone</div>;
 }
 
 export default App;
