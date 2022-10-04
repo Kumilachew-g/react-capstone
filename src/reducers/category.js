@@ -1,4 +1,4 @@
-import { CATEGORY_POKEMON } from '../actions/actions';
+import { CATEGORY_POKEMON } from '../components/actions/actions';
 
 const catReducer = (state = [], action) => {
   switch (action.type) {
