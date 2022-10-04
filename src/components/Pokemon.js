@@ -60,6 +60,7 @@ const Pokemon = ({ location }) => {
 };
 
 Pokemon.propTypes = {
+  /* eslint-disable */
   location: PropTypes.objectOf(PropTypes.any).isRequired,
 };
 
