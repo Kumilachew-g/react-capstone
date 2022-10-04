@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import style from '../assets/styles/pokemonarea.module.css';
-import { artUrl } from '../API/helper';
+import { imageUrl } from '../API/helper';
 
 const PokemonListing = ({ poke, url, id }) => {
   function capitalizeLetters(string) {
@@ -16,7 +16,7 @@ const PokemonListing = ({ poke, url, id }) => {
       >
         {capitalizeLetters(poke)}
       </Link>
-      <img alt={poke} src={artUrl(id)} />
+      <img alt={poke} src={imageUrl(id)} />
     </div>
   );
 };

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import { useParams } from 'react-router-dom';
 import Navbar from '../containers/Nav';
-import { artUrl, fetchPokeData } from '../API/helper';
+import { imageUrl, fetchPokeData } from '../API/helper';
 import style from '../assets/styles/pokemon.module.css';
 
 const Pokemon = ({ location }) => {
@@ -40,7 +40,7 @@ const Pokemon = ({ location }) => {
                   <h5>{`Types: ${Capitalize(data.types[0].type.name)}`}</h5>
                 </span>
                 <img
-                  src={artUrl(data.id)}
+                  src={imageUrl(data.id)}
                   className={style.blogImg}
                   alt={name}
                 />

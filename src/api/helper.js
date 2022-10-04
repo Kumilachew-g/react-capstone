@@ -37,4 +37,4 @@ export const fetchPokeData = async (url) => {
   }
 };
 
-export const artUrl = (id) => `https://raw.githubusercontent.com/JohnHernCode/pokemon-images/master/all/${id}.png`;
+export const imageUrl = (id) => `https://raw.githubusercontent.com/JohnHernCode/pokemon-images/master/all/${id}.png`;
