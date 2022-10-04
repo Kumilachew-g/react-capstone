@@ -59,10 +59,9 @@ const PokemonList = ({
     </div>
   );
 
-  const pokeRender =
-    filter[0] === 0 || filter[0] === 'All'
-      ? renderAll(pokes)
-      : renderCat(categorizedPokes[0], filter);
+  const pokeRender = filter[0] === 0 || filter[0] === 'All'
+    ? renderAll(pokes)
+    : renderCat(categorizedPokes[0], filter);
 
   return (
     <>
