@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Nav';
 import PokemonList from '../components/PokemonList';
-import style from './home.module.css';
+import style from '../assets/styles/home.module.css';
 
 const Home = () => (
   <>

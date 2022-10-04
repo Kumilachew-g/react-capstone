@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 // import { Tabs, AppBar } from '@material-ui/core';
-import style from './nav.module.css';
+import style from '../assets/styles/nav.module.css';
 import navImage from '../assets/images/pokedex.png';
 
 function Navbar() {

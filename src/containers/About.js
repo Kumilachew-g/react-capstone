@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Nav';
-import style from './about.module.css';
+import style from '../assets/styles/about.module.css';
 
 const About = () => (
   <>
