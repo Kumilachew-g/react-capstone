@@ -18,10 +18,5 @@ const categoryPokemon = (catPokemon) => ({
 });
 
 export {
-  ADD_POKEMON,
-  addPokemon,
-  CHANGE_FILTER,
-  changeFilter,
-  CATEGORY_POKEMON,
-  categoryPokemon,
+  ADD_POKEMON, addPokemon, CHANGE_FILTER, changeFilter, CATEGORY_POKEMON, categoryPokemon,
 };

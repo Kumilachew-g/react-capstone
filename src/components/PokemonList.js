@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import React, { useEffect } from 'react';
-import PokemonListing from '../containers/PokemonAreas';
-import CategoryFilter from '../categories/Category';
+import PokemonListing from '../containers/PokemonArea';
+import CategoryFilter from './CategoryFilter';
 import { changeFilter, addPokemon, categoryPokemon } from '../actions/actions';
-import { allPokemon, pokemonByCategory } from '../API/helper';
+import { allPokemon, pokemonByCategory } from '../api/request';
 import style from './pokemonlist.module.css';
 
 const PokemonList = ({
@@ -80,9 +80,9 @@ const mapStateToProps = (state) => ({
 });
 
 PokemonList.propTypes = {
-  filter: PropTypes.arrayOf(PropTypes.shape).isRequired,
-  pokes: PropTypes.arrayOf(PropTypes.shape).isRequired,
-  categorizedPokes: PropTypes.arrayOf(PropTypes.shape).isRequired,
+  filter: PropTypes.arrayOf(PropTypes.any).isRequired,
+  pokes: PropTypes.arrayOf(PropTypes.any).isRequired,
+  categorizedPokes: PropTypes.arrayOf(PropTypes.any).isRequired,
   changeFilter: PropTypes.func.isRequired,
   addPokemon: PropTypes.func.isRequired,
   categoryPokemon: PropTypes.func.isRequired,

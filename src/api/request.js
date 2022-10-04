@@ -1,11 +1,11 @@
-const baseAPI = 'https://pokeapi.co/api/v2/';
+const API = 'https://pokeapi.co/api/v2/';
 
 export const pokemonByCategory = () => {
   try {
     let categoryId = 1;
     const categoryArray = [];
     while (categoryId < 19) {
-      fetch(`${baseAPI}type/${categoryId}`)
+      fetch(`${API}type/${categoryId}`)
         .then((response) => response.json())
         .then((result) => categoryArray.push(result.pokemon));
       categoryId += 1;
@@ -18,7 +18,7 @@ export const pokemonByCategory = () => {
 
 export const allPokemon = async () => {
   try {
-    const response = await fetch(`${baseAPI}pokemon?offset=0&limit=20`);
+    const response = await fetch(`${API}pokemon?offset=0&limit=20`);
     const newDataJson = await response.json();
     const result = newDataJson.results;
     return result;
@@ -37,4 +37,4 @@ export const fetchPokeData = async (url) => {
   }
 };
 
-export const imageUrl = (id) => `https://raw.githubusercontent.com/kumilachew-g/pokemon-images/master/all/${id}.png`;
+export const artUrl = (id) => `https://raw.githubusercontent.com/JohnHernCode/pokemon-images/master/all/${id}.png`;
