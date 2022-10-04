@@ -21,7 +21,7 @@
 }
 
 .pokeDiv > * > * {
-  background-color: rgb(255, 189, 21);
+  background-color: #8aaae5;
   text-decoration: none;
   padding: 1em;
   border: 3px solid #fff;
@@ -29,7 +29,7 @@
   background-image: url(../images/pokeball.png);
   background-size: 3em;
   background-repeat: no-repeat;
-  background-position-x: -25%;
+  background-position-x: -26%;
   background-position-y: center;
 }
 

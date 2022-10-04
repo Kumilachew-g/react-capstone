@@ -1,7 +1,7 @@
 .customSelect select {
   width: 7em;
-  border-color: rgba(30, 143, 255, 0.884);
-  background-color: dodgerblue;
+  border-color: #0e9c7a;
+  background-color: #0e9c7a;
   color: #020122;
   font-size: 1.5em;
   -webkit-appearance: none;
@@ -13,7 +13,7 @@
   background-position-x: 90%;
   background-position-y: center;
   padding: 0.5em;
-  border-radius: 5px;
+  border-radius: 4px;
   margin-bottom: 1em;
-  margin-left: 10px;
+  margin-left: 9px;
 }
