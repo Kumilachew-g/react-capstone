@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { useState, useEffect } from 'react';
+
 import { useParams } from 'react-router-dom';
-import { fetchPokeData } from '../api-requests/request';
+import { fetchPokeData } from '../API/helper';
 
 const Pokemon = ({ location }) => {
   const [data, setData] = useState(null);
@@ -27,7 +27,7 @@ const Pokemon = ({ location }) => {
   if (data) {
     return (
       <span>
-        {/* NavBar area*/}
+        {/* NavBar area */}
         <div>
           <div>
             <h1>{name}</h1>
@@ -52,7 +52,7 @@ const Pokemon = ({ location }) => {
 };
 
 Pokemon.propTypes = {
-  location: PropTypes.objectOf(PropTypes.any).isRequired,
+  location: PropTypes.objectOf(PropTypes.shape).isRequired,
 };
 
 export default Pokemon;
