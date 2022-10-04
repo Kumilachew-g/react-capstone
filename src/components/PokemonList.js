@@ -59,10 +59,9 @@ const PokemonList = ({
     </div>
   );
 
-  const pokeRender =
-    filter[0] === 0 || filter[0] === 'All'
-      ? renderAll(pokes)
-      : renderCat(categorizedPokes[0], filter);
+  const pokeRender = filter[0] === 0 || filter[0] === 'All'
+    ? renderAll(pokes)
+    : renderCat(categorizedPokes[0], filter);
 
   return (
     <>
@@ -81,6 +80,7 @@ const mapStateToProps = (state) => ({
 });
 
 PokemonList.propTypes = {
+  /* eslint-disable */
   filter: PropTypes.arrayOf(PropTypes.any).isRequired,
   pokes: PropTypes.arrayOf(PropTypes.any).isRequired,
   categorizedPokes: PropTypes.arrayOf(PropTypes.any).isRequired,
