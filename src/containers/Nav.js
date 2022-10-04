@@ -7,15 +7,8 @@ import navImage from '../images/pokedex.png';
 function Navbar() {
   return (
     <>
-      {/* <AppBar position="static"> */}
-      {/*  <Tabs value={0}> */}
-      {/*    <img src={navImage} className={style.logo} alt="Logo" /> */}
-      {/*    <Link to="/" className={style.linkStyle}>Home </Link> */}
-      {/*    <Link to="/about" className={style.linkStyle}>About </Link> */}
-      {/*  </Tabs> */}
-      {/* </AppBar> */}
-      <header className={style.header}>
-        <img src={navImage} className={style.logo} alt="Logo" />
+      <header className={style.headerNav}>
+        <img src={navImage} className={style.pekedexLogo} alt="Logo" />
         <ul className={style.mainNav}>
           <Link to="/" className={style.linkStyle}>
             Home
