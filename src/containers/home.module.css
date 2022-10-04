@@ -2,12 +2,12 @@
   color: #000;
 }
 
-.header {
+.homeHeader {
   padding: 20px;
   text-align: center;
-  background: #0c1665;
+  background: #0b5a70;
   color: white;
-  font-size: 30px;
-  margin-left: 10px;
-  border-radius: 5px;
+  font-size: 28px;
+  margin-left: 9px;
+  border-radius: 4px;
 }
