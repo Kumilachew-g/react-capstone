@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import { useParams } from 'react-router-dom';
 import Navbar from '../containers/Nav';
-import { imageUrl, fetchPokeData } from '../API/helper';
+import { imageUrl, fetchPokeData } from '../api/helper';
 import style from '../assets/styles/pokemon.module.css';
 
 const Pokemon = ({ location }) => {
