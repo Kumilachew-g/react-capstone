@@ -1,4 +1,4 @@
-import { CHANGE_FILTER } from '../actions/actions';
+import { CHANGE_FILTER } from '../../components/actions/actions';
 
 const pokeMonfilterReducer = (state = ['All'], action) => {
   switch (action.type) {
