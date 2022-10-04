@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 import PokemonListing from '../containers/PokemonArea';
 import CategoryFilter from './CategoryFilter';
 import { changeFilter, addPokemon, categoryPokemon } from './actions/actions';
-import { allPokemon, pokemonByCategory } from '../API/helper';
+import { allPokemon, pokemonByCategory } from '../api/helper';
 import style from '../assets/styles/pokemonlist.module.css';
 
 const PokemonList = ({
@@ -59,9 +59,10 @@ const PokemonList = ({
     </div>
   );
 
-  const pokeRender = filter[0] === 0 || filter[0] === 'All'
-    ? renderAll(pokes)
-    : renderCat(categorizedPokes[0], filter);
+  const pokeRender =
+    filter[0] === 0 || filter[0] === 'All'
+      ? renderAll(pokes)
+      : renderCat(categorizedPokes[0], filter);
 
   return (
     <>
