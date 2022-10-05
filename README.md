@@ -96,8 +96,10 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
+- Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
+- The [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/) requires that you give appropriate credit to the author. Therefore, you must do it in the README of your project.
 - [PokeAPI](https://pokeapi.co/docs/v2)
-- [The-Pokemon-Company](https://www.pokemon.com/us/)
+- [The Pokemon Company](https://www.pokemon.com/us/)
 - [Netlify](https://www.netlify.com/)
 - [Dave Ceddia](https://www.youtube.com/channel/UCPrkHuq0i1WflifRXUpvNmg)
 
