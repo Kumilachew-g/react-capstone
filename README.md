@@ -19,11 +19,11 @@ All the information for the application is pulled from the [PokeAPI](https://pok
 
 ## Live Video
 
-[Live Video](https://www.loom.com/share/253b860c352946caa39e82ee8ea64cc7)
+[Live Video](https://www.loom.com/share/253b860c352946caa39e82ee8ea64cc7kk)
 
 ## Live Demo
 
-[Live Demo](https://pekedex.netlify.app/)
+[Live Demo](https://pekedex.netlifykk.app/)
 
 # How to use it
 
