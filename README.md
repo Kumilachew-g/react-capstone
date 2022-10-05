@@ -17,9 +17,13 @@ All the information for the application is pulled from the [PokeAPI](https://pok
 - Node.js,
 - Git flow
 
+## Live Video
+
+[Live Video](https://www.loom.com/share/253b860c352946caa39e82ee8ea64cc7)
+
 ## Live Demo
 
-[Live Demo]()
+[Live Demo](https://pekedex.netlify.app/)
 
 # How to use it
 
