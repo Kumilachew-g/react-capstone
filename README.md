@@ -92,7 +92,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-- PokeAPI
+- [PokeAPI](https://pokeapi.co/docs/v2)
 - The Pokemon Company
 - [Dave Ceddia](https://www.youtube.com/channel/UCPrkHuq0i1WflifRXUpvNmg)
 
