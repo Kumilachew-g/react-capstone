@@ -87,7 +87,7 @@ Then you can just run the following command and see the results
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Kumilachew-g/react-capstone/issues/).
 
 ## Show your support
 
