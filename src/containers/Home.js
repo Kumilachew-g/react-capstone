@@ -8,7 +8,7 @@ const Home = () => (
     <Navbar />
     <div className={style.homeHeader}>
       <h1>Welcome to the PokeDex</h1>
-      <p>Click your favorite Pokemon below</p>
+      <p>Select your favorite Pokemon below</p>
     </div>
     <PokemonList />
   </>
