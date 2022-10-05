@@ -97,7 +97,8 @@ Give a ⭐️ if you like this project!
 
 - Microverse
 - [PokeAPI](https://pokeapi.co/docs/v2)
-- The Pokemon Company
+- [The-Pokemon-Company](https://www.pokemon.com/us/)
+- [Netlify](https://www.netlify.com/)
 - [Dave Ceddia](https://www.youtube.com/channel/UCPrkHuq0i1WflifRXUpvNmg)
 
 ## 📝 License
