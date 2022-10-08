@@ -7,13 +7,15 @@ function Navbar() {
   return (
     <>
       <header className={style.headerNav}>
-        <img src={navImage} className={style.pekedexLogo} alt='Logo' />
+        <img src={navImage} className={style.pekedexLogo} alt="Logo" />
         <ul className={style.mainNav}>
-          <Link to='/' className={style.linkStyle}>
-            Home{' '}
+          <Link to="/" className={style.linkStyle}>
+            Home
+            {' '}
           </Link>
-          <Link to='/about' className={style.linkStyle}>
-            About{' '}
+          <Link to="/about" className={style.linkStyle}>
+            About
+            {' '}
           </Link>
         </ul>
       </header>
